@@ -28,15 +28,3 @@ function hammingDistance(x,y){
         return;        
     }
 }
-
-function test(val){        
-    var first, second, testCaseResult;    
-    for(var i = 0; i < val; i++){
-        first = i;
-        second = i + first;        
-
-        testCaseResult = hammingDistance(first, second);
-        console.log(testCaseResult);
-    }
-    
-}
