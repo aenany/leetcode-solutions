@@ -1,3 +1,0 @@
-# leetcode-solutions
-
-Master branch

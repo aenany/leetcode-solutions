@@ -11,7 +11,7 @@ var addDigits = function(num) {
 		digits.push(parseInt(digit));			
 	});
 	
-	if(digits.length == 1){
+	if(digits.lengtsh == 1){
 		return digits[0];
 	} else {			
 		if(digits.length > 1){
