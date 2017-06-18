@@ -1,3 +1,3 @@
 # leetcode-solutions
 
-Master branch
+Added ES6 Solutions
