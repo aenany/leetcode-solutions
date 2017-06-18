@@ -2,6 +2,7 @@
  * @param {number[]} nums
  * @return {number}
  */
+
 var arrayPairSum = function(nums) {
     var r = 0; 
     nums.sort(function(a, b){return a - b});
