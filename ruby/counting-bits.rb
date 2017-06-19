@@ -11,5 +11,3 @@ def count_bits(num)
 	end	
 	p z
 end
-
-count_bits(4)
