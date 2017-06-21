@@ -2,12 +2,11 @@
 # @return {Integer[]}
 
 def count_bits(num)
-	i = 0
-	z = []
+	i=0
+	x=[]
 	while i <= num
-		x = i
-		z.push(x.to_s(2).each_char.map(&:to_i).inject(0){|sum,item| sum + item})
+		x.push(i.to_s(2).count('1'))
 		i+=1
-	end	
-	p z
+	end
+	return x
 end
