@@ -2,6 +2,7 @@
  * @param {number} num
  * @return {number[]}
  */
+
 var countBits = function (num) {
     var r = [];
     for (var i=0, c=0; i <= num; c=0, i++) {        
