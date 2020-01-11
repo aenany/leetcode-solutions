@@ -5,11 +5,11 @@
  * @return {string}
  */
 
-var s = {};
+var cache = {};
 
 var encode = function(longUrl) {
-    var l = Math.random().toString(36).substr(2,9);
-    s[l] = longUrl;
+    var tiny = Math.random().toString(36).slice(4);
+    s[tiny] = longUrl;
 };
 
 /**
